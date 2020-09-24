@@ -61,7 +61,7 @@ Layout with Main Menu
 Main Navigation with Partials for Subtitle and Submenu
 ```
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <f:link.page pageUid="{rootPage}" class="navbar-brand">{siteTitle} Test</f:link.page>
+    <f:link.page pageUid="{rootPage}" class="navbar-brand">{siteTitle}</f:link.page>
     <button  class="navbar-toggler"
              type="button"
              data-toggle="collapse"
