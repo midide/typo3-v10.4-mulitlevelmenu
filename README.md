@@ -51,7 +51,7 @@ Layout with Main Menu
     </div>
 
     <footer id="page-footer" class="">
-    	<f:render partial="Structure/Footer" />
+    	<f:render partial="Structure/Footer" arguments="{_all}" />
     </footer>
 
 </div>
