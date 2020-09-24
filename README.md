@@ -10,14 +10,20 @@ page = PAGE
 page {
     10 = FLUIDTEMPLATE
     10 {
-            dataProcessing {
+        dataProcessing {
             10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
             10 {
                 levels = 3
                 includeSpacer = 1
                 as = mainnavigation
+                }
+           }
+        variables {
+            siteTitle = TEXT
+            siteTitle.data = TSFE:tmpl|setup|sitetitle
+            rootPage = TEXT
+            rootPage.data = leveluid:0
             }
-           }   
        }
     }
 ```
