@@ -1,9 +1,13 @@
 # TYPO3 v10.4 Multi-Level Menu
-TYPO3 v10.4 Multi-Level Menu with MenuProcessor, Bootstrap v4.5, SmartMenus v1.1. Based on [Sitepackage Tutorial](https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/) from Michael Schams and [Bootstrap Package](https://github.com/benjaminkott/bootstrap_package) from Benjamin Kott. Many Thanks!
+TYPO3 v10.4 Multi-Level Menu with MenuProcessor, jQuery v3.5, Bootstrap v4.5, SmartMenus v1.1. Based on [Sitepackage Tutorial](https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/) from Michael Schams and [Bootstrap Package](https://github.com/benjaminkott/bootstrap_package) from Benjamin Kott. Many Thanks!
 
 * [TYPO3](https://typo3.org/)
+* [jQuery](https://jquery.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [SmartMenus](https://www.smartmenus.org/)
+
+jQuery, Bootstrap and SmartMenus via includeCSS{} and includeJSFooter{} in setup.typoscript.
+
 ## /Configuration/TypoScript/setup.typoscript
 Fluidtemplate with MenuProzessor
 ```
