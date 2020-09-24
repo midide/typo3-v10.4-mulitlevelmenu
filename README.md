@@ -1,5 +1,8 @@
 # TYPO3 v10.4 Multi-Level Menu
 TYPO3 v10.4 Multi-Level Menu with MenuProzessor, Bootstrap v4.5, SmartMenus v1.1
+* [TYPO3](https://typo3.org/)
+* [Bootstrap](https://getbootstrap.com/)
+* [SmartMenus](https://www.smartmenus.org/)
 ## /Configuration/TypoScript/setup.typoscript
 Fluidtemplate with MenuProzessor
 ```
